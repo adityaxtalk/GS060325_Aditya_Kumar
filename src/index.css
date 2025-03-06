@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .sidebar .nav-link {
+    color: #000;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  
+  .sidebar .nav-link.active {
+    background: #ddd;
+    border-radius: 5px;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
