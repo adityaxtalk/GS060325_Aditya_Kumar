@@ -36,7 +36,7 @@ const StoreList = () => {
       pinned: "left"
     },
     {
-      headerName: "S No.",
+      headerName: "S. No.",
       field: "seqNo",
       rowDrag: true,
       suppressSizeToFit: true,

@@ -89,9 +89,9 @@ const SalesPlanning = () => {
             },
             { headerName: "Sales", field: `${week}_SalesDollars` },
             { headerName: "Cost", field: `${week}_CostDollars` },
-            { headerName: "GM$", field: `${week}_GMDollars` },
+            { headerName: "GM Dollars", field: `${week}_GMDollars` },
             {
-              headerName: "GM%",
+              headerName: "GM Percent",
               field: `${week}_GMPercent`,
               cellStyle: (params) => {
                 const value = parseFloat(params.value);
