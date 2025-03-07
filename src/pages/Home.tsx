@@ -4,6 +4,7 @@ import Login from '../components/Login'
 import { useSelector } from 'react-redux'
 import { RootState } from '../store/store'
 import { useNavigate } from 'react-router'
+import ProjectDetails from '../components/ProjectDetails'
 
 const Home:React.FC = () => {
   const user= useSelector((state:RootState) => state.auth.userInfo);
@@ -20,7 +21,9 @@ const Home:React.FC = () => {
             <Col xs={12} sm={6}>
               <Login/>
             </Col>
-            <Col xs={12} sm={6}/>
+            <Col xs={12} sm={6}>
+             <ProjectDetails/>
+            </Col>
         </Row>
     </Container>
   )
