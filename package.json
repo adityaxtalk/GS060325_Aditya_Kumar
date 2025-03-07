@@ -1,7 +1,6 @@
 {
-  "name": "gssynchronogy",
+  "name": "gsynergy",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
@@ -13,10 +12,15 @@
   "description": "",
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.0",
+    "ag-grid-community": "^33.1.1",
+    "ag-grid-react": "^33.1.1",
+    "apexcharts": "^4.5.0",
     "bootstrap": "^5.3.3",
     "formik": "^2.4.6",
     "react": "^19.0.0",
+    "react-apexcharts": "^1.7.0",
     "react-bootstrap": "^2.10.9",
+    "react-confirm": "^0.3.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-redux": "^9.2.0",
@@ -28,6 +32,7 @@
     "@types/react-dom": "^19.0.4",
     "parcel": "^2.13.3",
     "process": "^0.11.10",
+    "svgo": "^3.3.2",
     "typescript": "^5.8.2"
   }
 }
