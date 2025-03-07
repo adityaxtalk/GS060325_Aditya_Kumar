@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Nav } from "react-bootstrap";
 import { Link, useLocation } from "react-router";
 import { FaStore, FaBox, FaChartBar, FaTable } from "react-icons/fa";
 
 const Sidebar: React.FC = () => {
   const location = useLocation();
-  const [activeKey, setActiveKey] = useState(location.pathname);
-   console.log(activeKey)
+  const [activeKey, setActiveKey] = useState("");
+
+  useEffect(()=>{
+    setActiveKey(location.pathname)
+  },[location.pathname])
+  
   return (
     <div className="sidebar">
       <Nav className="flex-column">
