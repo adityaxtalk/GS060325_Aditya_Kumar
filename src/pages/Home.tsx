@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router'
 
 const Home:React.FC = () => {
   const user= useSelector((state:RootState) => state.auth.userInfo);
-  console.log("hello ")
   const navigate= useNavigate();
   useEffect(()=> {
      if (user?.email) {
