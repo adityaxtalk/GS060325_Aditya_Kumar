@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+#root {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
 .sidebar {
     width: 200px;
-    height: 100vh;
+    height: 86vh;
     background: #fff;
     border-right: 1px solid #ddd;
-    padding: 20px;
+    padding-top: 1rem;
   }
   
   .sidebar .nav-link {
@@ -20,7 +25,6 @@
   
   .sidebar .nav-link.active {
     background: #ddd;
-    border-radius: 5px;
   }
   
   .content {
@@ -28,3 +32,12 @@
     padding: 20px;
   }
   
+  .bg-gray {
+    background: #ddd;
+  }
+
+
+  .bg-orange{
+    background: #f57b7b;
+    border:none;
+  }
